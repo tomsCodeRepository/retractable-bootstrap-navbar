@@ -1,0 +1,50 @@
+/* Start of navigation bar (CSS) */
+
+#mainNavTitle{
+height: 80px;
+background-color: black;
+color: white;
+font-weight: 500;
+font-size: larger;
+}
+
+#mainNav {
+  background-color: black !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+#mainNav .nav-link,
+#mainNav .navbar-brand {
+  color: white !important;
+}
+/* End of navigation bar */
+
+
+/* Start of main layout */
+main {
+  margin-bottom: clamp(2rem, 5vw, 5rem);
+/* 
+2rem → minimum value (small screen)
+5vw → fluid value (proportional to screen width)
+5rem → maximum value (large screen)
+*/
+}
+/* End of main layout spacing */
+
+
+/* Start of footer styling */
+footer {
+  background-color: black;
+  color: white;
+}
+
+
+footer a,
+footer .text-muted {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+footer a:hover {
+  color: white !important;
+}
+/* End of footer styling */
